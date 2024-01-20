@@ -70,6 +70,32 @@
         android:layout_below="@id/Passwordet"/> <!-- White underline -->
 
 
+    <EditText
+        android:id="@+id/Password3et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/password3"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#1E1E1E"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/passwordUnderlinev"/> <!-- end Password -->
+
+
+    <View
+        android:id="@+id/passwordUnderline3v"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignBottom="@id/Password3et"
+        android:layout_below="@id/Password3et"/> <!-- end underline -->
+
+
     <Button
         android:id="@+id/loginButton"
         android:layout_width="300dp"
