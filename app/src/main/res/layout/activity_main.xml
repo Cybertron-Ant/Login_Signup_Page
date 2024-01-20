@@ -8,5 +8,17 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/WelcomeBacktv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="120dp" /> <!-- end Welcome Back -->
+
+
 
 </LinearLayout>
