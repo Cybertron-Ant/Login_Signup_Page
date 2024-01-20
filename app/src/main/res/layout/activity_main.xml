@@ -36,18 +36,32 @@
         android:id="@+id/MailIDet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:hint="@string/mail_id"
         android:textColor="#000000" /> <!-- end edit Username id -->
+
+    <View
+        android:id="@+id/mailIDUnderline"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_alignBottom="@id/MailIDet"/> <!-- White underline -->
 
     <EditText
         android:id="@+id/Passwordet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="4dp"
         android:hint="@string/password"
         android:textColor="#000000"
-        android:backgroundTint="#FFFFFF"/> <!-- end edit Password -->
+        android:layout_marginBottom="5dp"/> <!-- end edit Password -->
+
+    <View
+        android:id="@+id/passwordUnderlinev"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_alignBottom="@id/Passwordet"/> <!-- White underline -->
 
 
 
