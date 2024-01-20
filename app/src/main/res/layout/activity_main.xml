@@ -74,5 +74,23 @@
         android:layout_marginRight="25dp"/> <!-- White underline -->
 
 
+    <TextView
+        android:id="@+id/ForgotPasswordtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"/> <!-- end Forgot Password-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/> <!-- end Black underline -->
+
+
 
 </LinearLayout>
